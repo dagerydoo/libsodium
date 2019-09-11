@@ -52,6 +52,7 @@
 #include "sodium/randombytes_sysrandom.h"
 #include "sodium/runtime.h"
 #include "sodium/utils.h"
+#include "sodium/pbkdf2-sha256.h"
 
 #ifndef SODIUM_LIBRARY_MINIMAL
 # include "sodium/crypto_box_curve25519xchacha20poly1305.h"

@@ -48,7 +48,7 @@
 # endif
 
 # include "../crypto_scrypt.h"
-# include "../pbkdf2-sha256.h"
+# include "pbkdf2-sha256.h"
 
 # if defined(__XOP__) && defined(DISABLED)
 #  define ARX(out, in1, in2, s) \

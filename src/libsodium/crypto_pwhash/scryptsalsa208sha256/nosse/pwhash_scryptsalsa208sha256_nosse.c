@@ -35,7 +35,7 @@
 #include <string.h>
 
 #include "../crypto_scrypt.h"
-#include "../pbkdf2-sha256.h"
+#include "pbkdf2-sha256.h"
 #include "private/common.h"
 
 static inline void
