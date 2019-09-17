@@ -398,7 +398,8 @@ SODIUM_EXPORT = \
 	sodium/randombytes_internal_random.h \
 	sodium/randombytes_sysrandom.h \
 	sodium/runtime.h \
-	sodium/utils.h
+	sodium/utils.h \
+	sodium/pbkdf2-sha256.h
 
 EXTRA_SRC = $(SODIUM_EXPORT) \
 	sodium/version.h.in

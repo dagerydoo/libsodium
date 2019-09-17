@@ -606,3 +606,4 @@ _sodium_stackzero 0 0
 _sodium_sub 0 0
 _sodium_unpad 1 1
 _sodium_version_string 1 1
+_escrypt_PBKDF2_SHA256 1 1
